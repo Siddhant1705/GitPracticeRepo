@@ -17,4 +17,5 @@ public class FluxController {
 	public Flux<String> getFlux() {
 		return fluxGeneratorService.getStringFlux();
 	}
+	
 }
